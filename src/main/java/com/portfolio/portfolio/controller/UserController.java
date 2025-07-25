@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
+//@CrossOrigin(origins = "https://ishimwedivin.vercel.app")
 public class UserController {
 
     @Autowired

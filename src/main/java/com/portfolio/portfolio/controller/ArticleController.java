@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/articles")
+//@CrossOrigin(origins = "https://ishimwedivin.vercel.app")
 public class ArticleController {
 
     @Autowired

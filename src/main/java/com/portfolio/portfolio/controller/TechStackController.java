@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/techstacks")
+//@CrossOrigin(origins = "https://ishimwedivin.vercel.app")
 public class TechStackController {
 
     @Autowired

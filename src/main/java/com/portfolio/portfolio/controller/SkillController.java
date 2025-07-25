@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/skills")
+//@CrossOrigin(origins = "https://ishimwedivin.vercel.app")
 public class SkillController {
 
     @Autowired

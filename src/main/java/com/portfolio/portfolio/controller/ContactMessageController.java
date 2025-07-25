@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/messages")
+//@CrossOrigin(origins = "https://ishimwedivin.vercel.app")
 public class ContactMessageController {
 
     @Autowired
